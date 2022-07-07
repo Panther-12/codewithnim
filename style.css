@@ -408,7 +408,13 @@ hr {
 	.nav-bar li{
 		opacity:0;
 	}
-  .other-wrapper>a{
+  .others-wrapper{
+    display:flex;
+    flex-direction:column;
+    padding:20px;
+    font-size:20px;
+  }
+  .others-wrapper>a{
     text-decoration:none;
     color:white;
     padding:10px;
@@ -419,16 +425,17 @@ hr {
 .nav-active{
 	transform:translatex(0%);
 }
-.other-wrapper{
+.others-wrapper{
   display:flex;
   flex-direction:column;
 }
-.other-wrapper>a{
+.others-wrapper>a{
   text-decoration:none;
   color:white;
   padding:10px;
-  font-family:var(--main-font-family)
+  font-family:var(--main-font-family);
+  font-size:20px !important;
 }
-.other-wrapper>a>i{
+.others-wrapper>a>i{
   margin-right:5px;
 }
