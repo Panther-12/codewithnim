@@ -409,16 +409,7 @@ hr {
 		opacity:0;
 	}
   .others-wrapper{
-    display:flex;
     flex-direction:column;
-    padding:20px;
-    font-size:20px;
-  }
-  .others-wrapper>a{
-    text-decoration:none;
-    color:white;
-    padding:10px;
-    font-family:var(--main-font-family)
   }
 }
 
