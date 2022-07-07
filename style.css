@@ -408,6 +408,12 @@ hr {
 	.nav-bar li{
 		opacity:0;
 	}
+  .other-wrapper>a{
+    text-decoration:none;
+    color:white;
+    padding:10px;
+    font-family:var(--main-font-family)
+  }
 }
 
 .nav-active{
