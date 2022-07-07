@@ -413,3 +413,16 @@ hr {
 .nav-active{
 	transform:translatex(0%);
 }
+.other-wrapper{
+  display:flex;
+  flex-direction:column;
+}
+.other-wrapper>a{
+  text-decoration:none;
+  color:white;
+  padding:10px;
+  font-family:var(--main-font-family)
+}
+.other-wrapper>a>i{
+  margin-right:5px;
+}
