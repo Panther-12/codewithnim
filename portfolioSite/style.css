@@ -51,6 +51,7 @@ header:hover{
 	padding-top: 5px;
 	height: 50px;
 	cursor: pointer;
+  text-decoration:none;
 }
 
 .nav-bar{
@@ -117,6 +118,9 @@ a.nav-link{
 	font-size:1.2rem;
 	font-family: var(--main-font-family);
 	text-align:center;
+}
+.intro p>b{
+  color:white;
 }
 
  h3{
@@ -272,7 +276,6 @@ footer {
 	font-size: 1rem;
 	letter-spacing: 1px;
     text-decoration: none;
-	font-family: var(--main-font-family);
 }
 
 .copyright a:hover{
