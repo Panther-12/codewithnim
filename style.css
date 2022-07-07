@@ -412,7 +412,7 @@ hr {
     display:flex;
     flex-direction:column;
     padding:20px;
-    font-size:1rem;
+    font-size:20px;
   }
   .others-wrapper>a{
     text-decoration:none;
@@ -434,8 +434,8 @@ hr {
   color:white;
   padding:10px;
   font-family:var(--main-font-family);
-  font-size:50px !important;
+  font-size:20px !important;
 }
-.other-wrapper>a>i{
+.others-wrapper>a>i{
   margin-right:5px;
 }
